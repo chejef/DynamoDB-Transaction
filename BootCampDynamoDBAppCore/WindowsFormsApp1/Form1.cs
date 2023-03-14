@@ -251,7 +251,8 @@ namespace BootCampDynamoDB
             {
                 commitTransactionBtn.Enabled = false;
                 cancelTransactionBtn.Enabled = false;
-            } else
+            }
+            else
             {
                 commitTransactionBtn.Enabled = true;
                 cancelTransactionBtn.Enabled = true;

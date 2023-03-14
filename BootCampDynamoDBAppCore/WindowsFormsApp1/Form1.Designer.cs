@@ -69,7 +69,7 @@
             bookAuthor.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             bookAuthor.Name = "bookAuthor";
             bookAuthor.Size = new System.Drawing.Size(325, 27);
-            bookAuthor.TabIndex = 4;
+            bookAuthor.TabIndex = 5;
             // 
             // attribute1Lbl
             // 
@@ -98,7 +98,7 @@
             title.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             title.Name = "title";
             title.Size = new System.Drawing.Size(325, 27);
-            title.TabIndex = 6;
+            title.TabIndex = 7;
             // 
             // attribute3Lbl
             // 
@@ -116,7 +116,7 @@
             movieGenre.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             movieGenre.Name = "movieGenre";
             movieGenre.Size = new System.Drawing.Size(325, 27);
-            movieGenre.TabIndex = 7;
+            movieGenre.TabIndex = 9;
             // 
             // attribute4Lbl
             // 
@@ -134,7 +134,7 @@
             putItemBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             putItemBtn.Name = "putItemBtn";
             putItemBtn.Size = new System.Drawing.Size(89, 34);
-            putItemBtn.TabIndex = 11;
+            putItemBtn.TabIndex = 13;
             putItemBtn.Text = "Add Item";
             putItemBtn.UseVisualStyleBackColor = true;
             putItemBtn.Click += putItemBtn_Click;
@@ -145,7 +145,7 @@
             getItemBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             getItemBtn.Name = "getItemBtn";
             getItemBtn.Size = new System.Drawing.Size(113, 34);
-            getItemBtn.TabIndex = 12;
+            getItemBtn.TabIndex = 14;
             getItemBtn.Text = "Retrieve Item";
             getItemBtn.UseVisualStyleBackColor = true;
             getItemBtn.Click += getItemBtn_Click;
@@ -156,7 +156,7 @@
             bookPublishDate.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             bookPublishDate.Name = "bookPublishDate";
             bookPublishDate.Size = new System.Drawing.Size(325, 27);
-            bookPublishDate.TabIndex = 5;
+            bookPublishDate.TabIndex = 8;
             bookPublishDate.ValueChanged += bookPublishDate_ValueChanged;
             // 
             // movieDirector
@@ -165,7 +165,7 @@
             movieDirector.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             movieDirector.Name = "movieDirector";
             movieDirector.Size = new System.Drawing.Size(325, 27);
-            movieDirector.TabIndex = 8;
+            movieDirector.TabIndex = 6;
             // 
             // label1
             // 
@@ -183,7 +183,7 @@
             albumArtist.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             albumArtist.Name = "albumArtist";
             albumArtist.Size = new System.Drawing.Size(325, 27);
-            albumArtist.TabIndex = 9;
+            albumArtist.TabIndex = 4;
             // 
             // label2
             // 
@@ -201,7 +201,7 @@
             deleteItemBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             deleteItemBtn.Name = "deleteItemBtn";
             deleteItemBtn.Size = new System.Drawing.Size(107, 34);
-            deleteItemBtn.TabIndex = 13;
+            deleteItemBtn.TabIndex = 15;
             deleteItemBtn.Text = "Remove Item";
             deleteItemBtn.UseVisualStyleBackColor = true;
             deleteItemBtn.Click += deleteItemBtn_Click;
@@ -253,7 +253,7 @@
             beginTransactionBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             beginTransactionBtn.Name = "beginTransactionBtn";
             beginTransactionBtn.Size = new System.Drawing.Size(186, 34);
-            beginTransactionBtn.TabIndex = 24;
+            beginTransactionBtn.TabIndex = 12;
             beginTransactionBtn.Text = "Begin Transaction (0)";
             beginTransactionBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             beginTransactionBtn.UseVisualStyleBackColor = true;
@@ -266,7 +266,7 @@
             commitTransactionBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             commitTransactionBtn.Name = "commitTransactionBtn";
             commitTransactionBtn.Size = new System.Drawing.Size(185, 34);
-            commitTransactionBtn.TabIndex = 25;
+            commitTransactionBtn.TabIndex = 16;
             commitTransactionBtn.Text = "Commit Transaction (0)";
             commitTransactionBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             commitTransactionBtn.UseVisualStyleBackColor = true;
@@ -279,7 +279,7 @@
             cancelTransactionBtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             cancelTransactionBtn.Name = "cancelTransactionBtn";
             cancelTransactionBtn.Size = new System.Drawing.Size(186, 34);
-            cancelTransactionBtn.TabIndex = 28;
+            cancelTransactionBtn.TabIndex = 17;
             cancelTransactionBtn.Text = "Rollback Transaction (0)";
             cancelTransactionBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             cancelTransactionBtn.UseVisualStyleBackColor = true;
